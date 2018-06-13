@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="60dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="24dp"
             android:text="Secundaria"
             android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -61,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="18dp"
             android:layout_marginStart="36dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="12dp"
             android:text='"Fundacion Nuevo Mundo"'
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView16" />
@@ -71,7 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="36dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="20dp"
             android:text='Unidad Educativa "Ciudad De Filadelfia"'
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView17" />
@@ -81,7 +81,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="36dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="12dp"
             android:text="Unidad Educativa Gral. Eloy Alfaro Delgado"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView18" />
@@ -91,31 +91,22 @@
             style="@android:style/Widget.DeviceDefault.Light.TextView.ListSeparator"
             android:layout_width="wrap_content"
             android:layout_height="23dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="32dp"
             android:text="Educacion Tercer Nivel"
             android:textSize="18sp"
-            app:layout_constraintTop_toBottomOf="@+id/textView19"
-            tools:layout_editor_absoluteX="60dp" />
-
-        <TextView
-            android:id="@+id/textView34"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_marginStart="36dp"
-            android:layout_marginTop="20dp"
-            android:text="Licenciatura En Sistemas De Informacion"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
         <TextView
             android:id="@+id/textView35"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="18dp"
             android:layout_marginStart="36dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="20dp"
             android:text="Facultad Ing. Industrial"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
         <TextView
             android:id="@+id/textView36"
@@ -126,5 +117,15 @@
             android:text="Universidad De Guayaquil"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="12dp"
+            android:text="Licenciatura En Sistemas De Informacion"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView36" />
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>
