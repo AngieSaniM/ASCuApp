@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="60dp"
-            android:layout_marginTop="56dp"
+            android:layout_marginTop="32dp"
             android:text="Secundaria"
             android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -85,5 +85,16 @@
             android:text="Unidad Educativa Gral. Eloy Alfaro Delgado"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView11"
+            style="@android:style/Widget.DeviceDefault.Light.TextView.ListSeparator"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:layout_marginTop="40dp"
+            android:text="Educacion Tercer Nivel"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            tools:layout_editor_absoluteX="60dp" />
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>
